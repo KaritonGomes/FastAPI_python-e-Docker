@@ -1,0 +1,9 @@
+version: "3"
+services:
+  db:
+    image: postgress:ll-alpíne
+    environment:
+      POSTGRESS_PASSWORD: workout
+      POSSTGRESS_USER: workout
+      POSTGRESS_DB: workout
+    ports:
